@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C4DE5E2F31E42E00AEA3E7 /* MainGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C4DE5D2F31E42E00AEA3E7 /* MainGoalView.swift */; };
+		06C4DE6B2F31ECFE00AEA3E7 /* mood_concerned.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE662F31ECFE00AEA3E7 /* mood_concerned.txt */; };
+		06C4DE6C2F31ECFE00AEA3E7 /* mood_disappointed.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE672F31ECFE00AEA3E7 /* mood_disappointed.txt */; };
+		06C4DE6D2F31ECFE00AEA3E7 /* greeting_call_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE602F31ECFE00AEA3E7 /* greeting_call_0.mp3 */; };
+		06C4DE6E2F31ECFE00AEA3E7 /* ringtone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE612F31ECFE00AEA3E7 /* ringtone.wav */; };
+		06C4DE6F2F31ECFE00AEA3E7 /* instruction_strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE642F31ECFE00AEA3E7 /* instruction_strings.txt */; };
+		06C4DE702F31ECFE00AEA3E7 /* uncle_ringing.caf in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE622F31ECFE00AEA3E7 /* uncle_ringing.caf */; };
+		06C4DE712F31ECFE00AEA3E7 /* mood_irritated.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE682F31ECFE00AEA3E7 /* mood_irritated.txt */; };
+		06C4DE722F31ECFE00AEA3E7 /* mood_calm.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE652F31ECFE00AEA3E7 /* mood_calm.txt */; };
+		06C4DE732F31ECFE00AEA3E7 /* first_call_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06C4DE5F2F31ECFE00AEA3E7 /* first_call_0.mp3 */; };
+		A10000000000000000000001 /* UncleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* UncleApp.swift */; };
+		A10000000000000000000005 /* IncomingCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* IncomingCallView.swift */; };
+		A10000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* Assets.xcassets */; };
+		A10000000000000000000009 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000000A /* DeviceActivityMonitorExtension.swift */; };
+		A1000000000000000000000B /* UncleDeviceActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* UncleDeviceActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A10000000000000000000033 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000037 /* DeviceActivity.framework */; };
+		A1000000000000000000003A /* DeviceActivityNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003B /* DeviceActivityNames.swift */; };
+		A1000000000000000000003C /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003D /* FamilyControls.framework */; };
+		A1000000000000000000003E /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003F /* ManagedSettings.framework */; };
+		A10000000000000000000042 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000043 /* UserNotifications.framework */; };
+		A10000000000000000000044 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000045 /* SettingsView.swift */; };
+		A10000000000000000000046 /* UncleAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000047 /* UncleAppState.swift */; };
+		A10000000000000000000048 /* UncleAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000047 /* UncleAppState.swift */; };
+		A1000000000000000000004B /* UncleShieldConfiguration.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A1000000000000000000004C /* UncleShieldConfiguration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1000000000000000000004D /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000004E /* ShieldConfigurationExtension.swift */; };
+		A1000000000000000000005A /* FamilyControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003D /* FamilyControls.framework */; };
+		A1000000000000000000005B /* ManagedSettingsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000051 /* ManagedSettingsUI.framework */; };
+		A1000000000000000000005E /* ManagedSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1000000000000000000003F /* ManagedSettings.framework */; };
+		A10000000000000000000060 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000061 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1000000000000000000000D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1000000000000000000000E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1000000000000000000000F;
+			remoteInfo = UncleDeviceActivityMonitor;
+		};
+		A1000000000000000000004F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1000000000000000000000E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10000000000000000000050;
+			remoteInfo = UncleShieldConfiguration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10000000000000000000010 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1000000000000000000000B /* UncleDeviceActivityMonitor.appex in Embed Foundation Extensions */,
+				A1000000000000000000004B /* UncleShieldConfiguration.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06C4DE5D2F31E42E00AEA3E7 /* MainGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGoalView.swift; sourceTree = "<group>"; };
+		06C4DE5F2F31ECFE00AEA3E7 /* first_call_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = first_call_0.mp3; sourceTree = "<group>"; };
+		06C4DE602F31ECFE00AEA3E7 /* greeting_call_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = greeting_call_0.mp3; sourceTree = "<group>"; };
+		06C4DE612F31ECFE00AEA3E7 /* ringtone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringtone.wav; sourceTree = "<group>"; };
+		06C4DE622F31ECFE00AEA3E7 /* uncle_ringing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = uncle_ringing.caf; sourceTree = "<group>"; };
+		06C4DE642F31ECFE00AEA3E7 /* instruction_strings.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = instruction_strings.txt; sourceTree = "<group>"; };
+		06C4DE652F31ECFE00AEA3E7 /* mood_calm.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mood_calm.txt; sourceTree = "<group>"; };
+		06C4DE662F31ECFE00AEA3E7 /* mood_concerned.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mood_concerned.txt; sourceTree = "<group>"; };
+		06C4DE672F31ECFE00AEA3E7 /* mood_disappointed.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mood_disappointed.txt; sourceTree = "<group>"; };
+		06C4DE682F31ECFE00AEA3E7 /* mood_irritated.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mood_irritated.txt; sourceTree = "<group>"; };
+		A10000000000000000000002 /* UncleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncleApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* IncomingCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingCallView.swift; sourceTree = "<group>"; };
+		A10000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000000000000000000000A /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		A1000000000000000000000C /* Uncle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uncle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000011 /* UncleDeviceActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UncleDeviceActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000018 /* Uncle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Uncle.entitlements; sourceTree = "<group>"; };
+		A1000000000000000000001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000000000000000000001B /* UncleDeviceActivityMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UncleDeviceActivityMonitor.entitlements; sourceTree = "<group>"; };
+		A1000000000000000000001C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A10000000000000000000037 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		A1000000000000000000003B /* DeviceActivityNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityNames.swift; sourceTree = "<group>"; };
+		A1000000000000000000003D /* FamilyControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FamilyControls.framework; path = System/Library/Frameworks/FamilyControls.framework; sourceTree = SDKROOT; };
+		A1000000000000000000003F /* ManagedSettings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettings.framework; path = System/Library/Frameworks/ManagedSettings.framework; sourceTree = SDKROOT; };
+		A10000000000000000000043 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		A10000000000000000000045 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A10000000000000000000047 /* UncleAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UncleAppState.swift; sourceTree = "<group>"; };
+		A1000000000000000000004C /* UncleShieldConfiguration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UncleShieldConfiguration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000000000000000000004E /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		A10000000000000000000051 /* ManagedSettingsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManagedSettingsUI.framework; path = System/Library/Frameworks/ManagedSettingsUI.framework; sourceTree = SDKROOT; };
+		A10000000000000000000053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000054 /* UncleShieldConfiguration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UncleShieldConfiguration.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000061 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000033 /* DeviceActivity.framework in Frameworks */,
+				A1000000000000000000003C /* FamilyControls.framework in Frameworks */,
+				A1000000000000000000003E /* ManagedSettings.framework in Frameworks */,
+				A10000000000000000000042 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000005A /* FamilyControls.framework in Frameworks */,
+				A1000000000000000000005B /* ManagedSettingsUI.framework in Frameworks */,
+				A1000000000000000000005E /* ManagedSettings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C4DE632F31ECFE00AEA3E7 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				06C4DE5F2F31ECFE00AEA3E7 /* first_call_0.mp3 */,
+				06C4DE602F31ECFE00AEA3E7 /* greeting_call_0.mp3 */,
+				06C4DE612F31ECFE00AEA3E7 /* ringtone.wav */,
+				06C4DE622F31ECFE00AEA3E7 /* uncle_ringing.caf */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		06C4DE692F31ECFE00AEA3E7 /* TextBanks */ = {
+			isa = PBXGroup;
+			children = (
+				06C4DE642F31ECFE00AEA3E7 /* instruction_strings.txt */,
+				06C4DE652F31ECFE00AEA3E7 /* mood_calm.txt */,
+				06C4DE662F31ECFE00AEA3E7 /* mood_concerned.txt */,
+				06C4DE672F31ECFE00AEA3E7 /* mood_disappointed.txt */,
+				06C4DE682F31ECFE00AEA3E7 /* mood_irritated.txt */,
+			);
+			path = TextBanks;
+			sourceTree = "<group>";
+		};
+		06C4DE6A2F31ECFE00AEA3E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06C4DE632F31ECFE00AEA3E7 /* Audio */,
+				06C4DE692F31ECFE00AEA3E7 /* TextBanks */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		06F816A92F2EF628002CA195 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000037 /* DeviceActivity.framework */,
+				A1000000000000000000003D /* FamilyControls.framework */,
+				A1000000000000000000003F /* ManagedSettings.framework */,
+				A10000000000000000000043 /* UserNotifications.framework */,
+				A10000000000000000000051 /* ManagedSettingsUI.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		A10000000000000000000014 = {
+			isa = PBXGroup;
+			children = (
+				06C4DE6A2F31ECFE00AEA3E7 /* Resources */,
+				A10000000000000000000015 /* Uncle */,
+				A10000000000000000000016 /* UncleDeviceActivityMonitor */,
+				A10000000000000000000052 /* UncleShieldConfiguration */,
+				A10000000000000000000017 /* Products */,
+				06F816A92F2EF628002CA195 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000015 /* Uncle */ = {
+			isa = PBXGroup;
+			children = (
+				06C4DE5D2F31E42E00AEA3E7 /* MainGoalView.swift */,
+				A10000000000000000000002 /* UncleApp.swift */,
+				A10000000000000000000006 /* IncomingCallView.swift */,
+				A10000000000000000000061 /* OnboardingView.swift */,
+				A10000000000000000000045 /* SettingsView.swift */,
+				A10000000000000000000047 /* UncleAppState.swift */,
+				A1000000000000000000003B /* DeviceActivityNames.swift */,
+				A10000000000000000000008 /* Assets.xcassets */,
+				A10000000000000000000018 /* Uncle.entitlements */,
+				A10000000000000000000019 /* Preview Content */,
+			);
+			path = Uncle;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000016 /* UncleDeviceActivityMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000A /* DeviceActivityMonitorExtension.swift */,
+				A1000000000000000000001A /* Info.plist */,
+				A1000000000000000000001B /* UncleDeviceActivityMonitor.entitlements */,
+			);
+			path = UncleDeviceActivityMonitor;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000000C /* Uncle.app */,
+				A10000000000000000000011 /* UncleDeviceActivityMonitor.appex */,
+				A1000000000000000000004C /* UncleShieldConfiguration.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000019 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000001C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A10000000000000000000052 /* UncleShieldConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				A1000000000000000000004E /* ShieldConfigurationExtension.swift */,
+				A10000000000000000000053 /* Info.plist */,
+				A10000000000000000000054 /* UncleShieldConfiguration.entitlements */,
+			);
+			path = UncleShieldConfiguration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000000000000000000000F /* UncleDeviceActivityMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000023 /* Build configuration list for PBXNativeTarget "UncleDeviceActivityMonitor" */;
+			buildPhases = (
+				A10000000000000000000024 /* Sources */,
+				A10000000000000000000013 /* Frameworks */,
+				A10000000000000000000025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UncleDeviceActivityMonitor;
+			productName = UncleDeviceActivityMonitor;
+			productReference = A10000000000000000000011 /* UncleDeviceActivityMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A1000000000000000000001D /* Uncle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000000000000000000001E /* Build configuration list for PBXNativeTarget "Uncle" */;
+			buildPhases = (
+				A1000000000000000000001F /* Sources */,
+				A10000000000000000000021 /* Resources */,
+				A10000000000000000000010 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000000000000000000022 /* PBXTargetDependency */,
+				A10000000000000000000059 /* PBXTargetDependency */,
+			);
+			name = Uncle;
+			productName = Uncle;
+			productReference = A1000000000000000000000C /* Uncle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000050 /* UncleShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000055 /* Build configuration list for PBXNativeTarget "UncleShieldConfiguration" */;
+			buildPhases = (
+				A10000000000000000000056 /* Sources */,
+				A10000000000000000000057 /* Frameworks */,
+				A10000000000000000000058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UncleShieldConfiguration;
+			productName = UncleShieldConfiguration;
+			productReference = A1000000000000000000004C /* UncleShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000000000000000000000E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1000000000000000000000F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A1000000000000000000001D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000026 /* Build configuration list for PBXProject "Uncle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000014;
+			productRefGroup = A10000000000000000000017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000000000000000000001D /* Uncle */,
+				A1000000000000000000000F /* UncleDeviceActivityMonitor */,
+				A10000000000000000000050 /* UncleShieldConfiguration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C4DE6B2F31ECFE00AEA3E7 /* mood_concerned.txt in Resources */,
+				06C4DE6C2F31ECFE00AEA3E7 /* mood_disappointed.txt in Resources */,
+				06C4DE6D2F31ECFE00AEA3E7 /* greeting_call_0.mp3 in Resources */,
+				06C4DE6E2F31ECFE00AEA3E7 /* ringtone.wav in Resources */,
+				06C4DE6F2F31ECFE00AEA3E7 /* instruction_strings.txt in Resources */,
+				06C4DE702F31ECFE00AEA3E7 /* uncle_ringing.caf in Resources */,
+				06C4DE712F31ECFE00AEA3E7 /* mood_irritated.txt in Resources */,
+				06C4DE722F31ECFE00AEA3E7 /* mood_calm.txt in Resources */,
+				06C4DE732F31ECFE00AEA3E7 /* first_call_0.mp3 in Resources */,
+				A10000000000000000000007 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000000000000000000001F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C4DE5E2F31E42E00AEA3E7 /* MainGoalView.swift in Sources */,
+				A10000000000000000000001 /* UncleApp.swift in Sources */,
+				A10000000000000000000060 /* OnboardingView.swift in Sources */,
+				A10000000000000000000005 /* IncomingCallView.swift in Sources */,
+				A10000000000000000000044 /* SettingsView.swift in Sources */,
+				A10000000000000000000046 /* UncleAppState.swift in Sources */,
+				A1000000000000000000003A /* DeviceActivityNames.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000009 /* DeviceActivityMonitorExtension.swift in Sources */,
+				A10000000000000000000048 /* UncleAppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000004D /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000000022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1000000000000000000000F /* UncleDeviceActivityMonitor */;
+			targetProxy = A1000000000000000000000D /* PBXContainerItemProxy */;
+		};
+		A10000000000000000000059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10000000000000000000050 /* UncleShieldConfiguration */;
+			targetProxy = A1000000000000000000004F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000000028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Uncle/Uncle.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGSH927RQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Uncle;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tala.uncle.app.v3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000000000000000000002A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Uncle/Uncle.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGSH927RQA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Uncle;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tala.uncle.app.v3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1000000000000000000002B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UncleDeviceActivityMonitor/UncleDeviceActivityMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGSH927RQA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UncleDeviceActivityMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tala.uncle.app.v3.devicemonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000000000000000000002C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UncleDeviceActivityMonitor/UncleDeviceActivityMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGSH927RQA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UncleDeviceActivityMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tala.uncle.app.v3.devicemonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1000000000000000000005C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UncleShieldConfiguration/UncleShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGSH927RQA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UncleShieldConfiguration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tala.uncle.app.v3.shieldconfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000000000000000000005D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = UncleShieldConfiguration/UncleShieldConfiguration.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGSH927RQA;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UncleShieldConfiguration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tala.uncle.app.v3.shieldconfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000001E /* Build configuration list for PBXNativeTarget "Uncle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000029 /* Debug */,
+				A1000000000000000000002A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000023 /* Build configuration list for PBXNativeTarget "UncleDeviceActivityMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000002B /* Debug */,
+				A1000000000000000000002C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000026 /* Build configuration list for PBXProject "Uncle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000027 /* Debug */,
+				A10000000000000000000028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000055 /* Build configuration list for PBXNativeTarget "UncleShieldConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000000000000000000005C /* Debug */,
+				A1000000000000000000005D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000000000000000000000E /* Project object */;
+}
