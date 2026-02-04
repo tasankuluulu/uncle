@@ -1,5 +1,7 @@
 # Uncle App
 
+Website: https://uncleapp.carrd.co/
+
 **Uncle App** is an iOS application designed to help individuals set measurable goals, build structured routines, and develop productive digital habits. The app leverages Apple’s Family Controls APIs to support goal-setting in a safe, transparent, and consent-based way.
 
 ---
